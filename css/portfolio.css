@@ -1,0 +1,39 @@
+/* -------------common shared style---------- */
+
+/* -------------nav style---------- */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav > ul {
+    display: flex;
+
+}
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    transition: .3s;
+    padding-right: 25px;
+    border-right: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+    transition: .3s;
+
+}
+nav a:hover{
+    color: #fd6e0a;
+}
+.text-primary{
+    color: #fd6e0a;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
