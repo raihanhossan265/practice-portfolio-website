@@ -37,3 +37,44 @@ nav a:hover{
     font-weight: 800;
     color: #181818;
 }
+
+/* ----------banner css--------- */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    color: #474747;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+.banner-description{
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    color: #ffffff;
+    background-color: #fd6e0a;
+    border: 0;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.header{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #fff8f3;
+}
